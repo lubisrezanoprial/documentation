@@ -1,0 +1,21 @@
+title: My Documentation Site
+description: Website dokumentasi dengan gaya Tailwind CSS
+baseurl: "" # untuk GitHub Pages: /nama-repo
+url: "https://username.github.io"
+
+# Collections untuk dokumentasi
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
