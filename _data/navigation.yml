@@ -1,16 +1,16 @@
 docs:
   - title: Getting Started
-    url: /docs/getting-started/
+    url: /documentation/docs/getting-started/
     
   - title: Installation
-    url: /docs/installation/
+    url: /documentation/docs/installation/
     
   - title: Configuration
-    url: /docs/configuration/
+    url: /documentation/docs/configuration/
     children:
       - title: Basic Config
-        url: /docs/configuration/basic/
+        url: /documentation/docs/configuration/basic/
       - title: Advanced Config
-        url: /docs/configuration/advanced/
+        url: /documentation/docs/configuration/advanced/
 
 # Tambahkan menu lainnya di sini dengan format yang sama
