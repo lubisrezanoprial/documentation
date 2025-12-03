@@ -1,0 +1,19 @@
+<header class="docs-header">
+  <div class="docs-header-container">
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 12h18M3 6h18M3 18h18"/>
+      </svg>
+    </button>
+    
+    <a href="{{ '/' | relative_url }}" class="docs-logo">
+      <span>{{ site.title }}</span>
+    </a>
+    
+    <nav class="docs-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/docs/' | relative_url }}" class="active">Docs</a>
+      <a href="{{ '/about.html' | relative_url }}">About</a>
+    </nav>
+  </div>
+</header>
