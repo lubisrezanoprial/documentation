@@ -1,8 +1,8 @@
 # Site settings
 title: My Documentation Site
 description: Website dokumentasi dengan gaya modern
-baseurl: "" # Ganti dengan /nama-repo jika deploy ke GitHub Pages di repo
-url: "https://username.github.io" # Ganti dengan URL GitHub Pages Anda
+baseurl: "documentation" # Ganti dengan /nama-repo jika deploy ke GitHub Pages di repo
+url: "https://lubisrezanoprial.github.io" # Ganti dengan URL GitHub Pages Anda
 
 # Build settings
 markdown: kramdown
