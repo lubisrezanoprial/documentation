@@ -4,17 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/docs.css' | relative_url }}">
 </head>
-<body>
-  {% include header.html %}
+<body class="docs-body">
+  {% include header-docs.html %}
   
-  <main class="landing-main">
-    {{ content }}
-  </main>
+  <div class="docs-container">
+    {% include sidebar.html %}
+    
+    <main class="docs-content">
+      <article class="prose">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </article>
+    </main>
+  </div>
   
-  {% include footer.html %}
+  <script src="{{ '/assets/js/docs.js' | relative_url }}"></script>
 </body>
 </html>
